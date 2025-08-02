@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './components/Hero';
+import Home from './components/Home';
 import About from './components/About';
 import Education from './components/Education';
 import Projects from './components/Projects';
@@ -25,7 +25,7 @@ function App() {
       <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white overflow-x-hidden transition-colors duration-300">
         <Navigation isScrolled={isScrolled} />
         <main>
-          <Hero />
+          <Home />
           <About />
           <Education />
           <Projects />
