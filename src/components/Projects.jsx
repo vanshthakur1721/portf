@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import jobtrackerimg from "public/jobtracker.png"
+
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -6,6 +8,16 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'JobTracker',
+      description: 'Built a full-stack job application tracker (MERN) with secure authentication and authorization. Implemented CRUD operations, search and filter functionality, and an analytics dashboard to visualize application trends. Deployed using Vercel and Railway for seamless accessibility.',
+      image:"/jobtrackerimg" ,
+      category: 'web',
+      technologies: ['React', 'Vite', 'Tailwind CSS','MongoDB','Express','Node js'],
+      link: 'https://job-tracker-zeta-one.vercel.app/',
+      github: 'https://github.com/vanshthakur1721/Job_Tracker'
+    },
+    {
+      id: 2,
       title: 'Gemini Clone',
       description: 'A responsive Gemini chatbot clone built using React and Vite, integrated with the Gemini API for real-time AI responses. Includes smooth UI interactions and dynamic chat flow.',
       image: ' https://tinyurl.com/4xwn5ybc',
@@ -13,27 +25,9 @@ const Projects = () => {
       technologies: ['React', 'Vite', 'Gemini API', 'Tailwind CSS'],
       link: 'https://gemini-clone-lilac-nu.vercel.app/',
       github: 'https://github.com/vanshthakur1721/Gemini-Clone'
-    },
-    {
-      id: 2,
-      title: 'Two Good Co.',
-      description: ' This project is a replica of the Two Good Co. showcasing modern front-end design techniques ..',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3bMUJy9iTH8EK4vxDwMwq3jtq2nTNk-U2g&s',
-      category: 'web',
-      technologies: ['HTML', 'CSS', 'Javascript', 'Gsap'],
-      link: 'https://vanshthakur1721.github.io/Two-good-co-project/',
-      github: 'https://github.com/vanshthakur1721/Two-good-co-project'
-    },
-    {
-      id: 3,
-      title: ' SunDown Studio',
-      description: 'I developed a replica of Sundown Studio using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll.',
-      image: 'https://i.pinimg.com/736x/27/2e/ba/272ebab4071d9d6ef98858fc58dc4776.jpg',
-      category: 'web',
-      technologies: ['HTML', ' CSS', 'javascript','Loocomotive Scroll','Gsap'],
-      link: 'https://sundown-replica-ten.vercel.app/',
-      github: 'https://github.com/vanshthakur1721/Sundown-Replica'
-    },
+    }
+    
+   
   ];
 
   const filters = [
