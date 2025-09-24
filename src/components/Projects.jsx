@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       title: 'JobTracker',
       description: 'Built a full-stack job application tracker (MERN) with secure authentication and authorization. Implemented CRUD operations, search and filter functionality, and an analytics dashboard to visualize application trends. Deployed using Vercel and Railway for seamless accessibility.',
-      image:"/jobtrackerimg" ,
+      image:"/jobtracker.png" ,
       category: 'web',
       technologies: ['React', 'Vite', 'Tailwind CSS','MongoDB','Express','Node js'],
       link: 'https://job-tracker-zeta-one.vercel.app/',
