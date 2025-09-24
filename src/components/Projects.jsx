@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import jobtrackerimg from "public/jobtracker.png"
 
 
 const Projects = () => {
