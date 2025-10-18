@@ -26,7 +26,7 @@ const Education = () => {
         "Strong foundation in Mathematics",
         "Logical thinking development"
       ],
-      percentage: "92%",
+      percentage: "92.3%",
       status: "Completed"
     },
     {
@@ -40,7 +40,7 @@ const Education = () => {
         "Active in school activities",
         "Strong foundation in core subjects"
       ],
-      percentage: "92.3%",
+      percentage: "92%",
       status: "Completed"
     }
   ];
